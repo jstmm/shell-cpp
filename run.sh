@@ -1,4 +1,4 @@
 #!/bin/sh
 set -e
 
-exec ./build/shell "$@"
+exec ./build/shell_cpp "$@"
