@@ -1,0 +1,21 @@
+{
+	"tasks": [
+		{
+			"args": [],
+			"command": "./BUILD.sh",
+			"group": {
+				"isDefault": true,
+				"kind": "build"
+			},
+			"label": "BUILD",
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"type": "cppbuild"
+		}
+	],
+	"version": "2.0.0"
+}

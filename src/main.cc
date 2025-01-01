@@ -10,7 +10,7 @@ int main()
         std::cerr << std::unitbuf;
 
         std::string input;
-        std::print("$ ");
+        std::cout << "$ ";
         std::getline(std::cin, input);
 
         running = processInput(input);
